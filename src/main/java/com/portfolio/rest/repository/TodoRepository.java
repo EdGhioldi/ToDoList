@@ -1,0 +1,7 @@
+package com.portfolio.rest.repository;
+
+import com.portfolio.rest.model.Task;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface TodoRepository extends JpaRepository<Task, Long>{
+}
